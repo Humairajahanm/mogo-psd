@@ -1,0 +1,182 @@
+
+@media all and (max-width: 1000px ) {
+    
+    .design-area-img  {
+        top: 40px;
+    }
+    .big-phone {
+        width: 50%;
+    }
+    .small-phone {
+       width: 40%;
+       
+    }
+    
+    nav {
+        padding: 20px 5%;
+    }
+}
+@media all and (max-width: 850px ) {
+    .nav-links {
+        float: none;
+		text-align: center;
+        margin-left: 20px;.
+    }
+    
+}
+@media all and (max-width: 768px ) {
+    .nav-links  {
+		width: 100%;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        background-color: #F48D83;
+        transition: all .50s ease;
+        text-align: left;
+        padding: 0;
+        
+	}
+    .slider-nav ul li {
+         display: inline;
+         text-align: center;
+         width: 100%;
+         height: auto;  
+    }
+    .single-counter {
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+    }
+    .about-img-bg {
+       margin-bottom: 35px; 
+    }
+    .about-img img:last-child {
+       margin-bottom: 35px; 
+    }
+    .design-area-img  {
+        top: 140px;
+        left: 40px;
+    }
+    .big-phone {
+        width: 50%;
+        
+    }
+    .small-phone {
+       width: 40%;
+       
+    }
+    
+}
+
+@media all and (max-width: 400px ) {
+    .design-area-img  {
+        top: 250px;
+        left: 40px;
+    }
+    .text-area  {
+        padding: 0 20px;
+    }
+    .text-area h2 {
+        font-size: 20px;
+    } 
+    .slider-nav ul li {
+
+        position: relative;
+   
+    }
+   .slider-nav ul li:after {
+        position: absolute;
+        content: ' ';
+        width: 20px;
+        height: 3px;
+        top: -3px;
+        left: 0;
+        opacity: 0;
+       
+    }
+   
+    <div class="offcanvas-body">
+    
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 current" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Skill</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Contact</a>
+                            </li>
+                        </ul>
+                </div>
+                <button class="navbar-toggler pe-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span> 
+                </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <div class="dropdown">
+                          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Cuda</h5>
+                          </button>
+                          <ul class="dropdown-menu">
+                            
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 current" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Skill</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Contact</a>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="offcanvas-body">
+    
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 current" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Skill</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Contact</a>
+                            </li>
+                        </ul>
+                </div>
+                </div> 
+}
